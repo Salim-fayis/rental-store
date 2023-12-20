@@ -1,0 +1,77 @@
+.input-section {
+  width: 50%;
+  margin-right: 100px;
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 30px;
+}
+
+.custom-select {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.select-icon {
+  position: absolute;
+  top: 45%;
+  right: -26px;
+  font-size: 0.7em;
+  transform: translateY(-50%);
+}
+
+.select-icon1 {
+  position: absolute;
+  top: 28%;
+  right: -27px;
+  font-size: 0.7em;
+  transform: translateY(-70%);
+}
+
+.bottom-line-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 8px;
+  margin-left: 30px;
+  outline: none;
+  appearance: none;
+  transition: border-bottom 0.3s;
+
+
+}
+
+
+.bottom-line-input:focus {
+  border-bottom: 2px solid #050505;
+}
+
+
+.last_first_two_input {
+  display: flex;
+  gap: 50px;
+}
+
+
+.bottom-line-input1 {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 8px;
+  margin-left: 30px;
+  outline: none;
+  transition: border-bottom 0.3s;
+}
+
+@media (min-width: 768px) {
+  .input-section {
+    width: 48%;
+  }
+}

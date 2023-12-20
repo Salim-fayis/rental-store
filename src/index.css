@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.store-page {
+  display: flex;
+  flex: 25%;
+  justify-content: space-around;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.input-section,
+.working-hours,
+.carousel-container {
+  flex: 1;
+  max-width: 500px;
+
+}
+
+@media (max-width: 768px) {
+
+  .input-section,
+  .working-hours,
+  .carousel-container {
+    max-width: none;
+  }
+}
